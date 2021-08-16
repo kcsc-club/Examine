@@ -1,4 +1,4 @@
-- Trần Văn Quác - AT15: 2.5
+- Trần Văn Quác - AT15: 0đ (có lý do)
 - Đạt - AT16: 2
 - Tùng Sơn - AT17: 2đ
 - Ly - AT17: 0đ
