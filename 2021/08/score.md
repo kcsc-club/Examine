@@ -5,3 +5,4 @@
 - Duy Tới - AT14: 2đ
 - Khánh - AT17: 3.5
 - Duy Chiến - AT16: 3đ
+- Hiệp: 0d  (có lý do)
