@@ -1,6 +1,6 @@
-Trần Văn Quác - AT15: 2.5
-Đạt - AT16: 2
-Tùng Sơn - AT17: 2đ
-Ly - AT17: 0đ
-Duy Tới - AT14: 2đ
-Khánh - AT17: 3.5
+- Trần Văn Quác - AT15: 2.5
+- Đạt - AT16: 2
+- Tùng Sơn - AT17: 2đ
+- Ly - AT17: 0đ
+- Duy Tới - AT14: 2đ
+- Khánh - AT17: 3.5
