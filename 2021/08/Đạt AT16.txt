@@ -1,0 +1,9 @@
+CHALLENGE1:
+
+Dùng dirsearch thì ta tìm thấy một đường dẫn là /source ==> sau khi truy cập vào đường dẫn thì
+
+cho tải về một file zip ==> unzip ra thì được 4 file là app.js , index.html, packet.json, package-lock.json
+
+sau khi đọc source app.js ==> thì thấy nó đang sài một package là lodash ==> package này version cũ dẫn đến lỗi ssti
+
+flag: KCSC{lodash_template_injection_so_ezzzz}

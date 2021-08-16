@@ -1,0 +1,9 @@
+chall 1
+hint: bad package
+/source
+
+tải source về có các file packge thấy có lodash_template_injection khả nghi
+payload trên mạng kiếm được ${JSON.stringify(process.env)}
+https://github.com/azu/server-side-lodash-template-injection
+
+-> flag KCSC{lodash_template_injection_so_ezzzz}
