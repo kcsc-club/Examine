@@ -4,3 +4,4 @@
 - Ly - AT17: 0đ
 - Duy Tới - AT14: 2đ
 - Khánh - AT17: 3.5
+- Duy Chiến - AT16: 
