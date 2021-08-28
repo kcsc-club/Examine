@@ -11,4 +11,4 @@
 > Góp ý  
 
 - Các bạn nên tập trung follow vào những thông tin cần thiết.
-- Cần luyện cách define lại pesudocode trong ida để đọc clear hơn   
+- Cần luyện cách define lại pesudocode trong ida để đọc clear hơn.
