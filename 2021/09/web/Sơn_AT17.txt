@@ -1,0 +1,9 @@
+select * from users where user = '' and password = '' limit 1
+(hint ko phai sqli)
+
+LFI
+?page=
+../../..  <- X
+wrapper (checkFile)   <- X
+
+checkFile -> contact admin(hint: admin sign file)-> ??

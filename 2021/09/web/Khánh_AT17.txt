@@ -1,0 +1,4 @@
+hint 2: mình ghét blackbox
+hint 4 : LFI
+Từ hint 2 và hint 4 em nghĩ đến php wrapper,
+source là checkFile thì ra được 1 đoạn base64, decode thì ra được source code
