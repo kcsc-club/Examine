@@ -10,3 +10,4 @@ lấy đc flag: 1
 - Quoắc AT15 : 1,5/5
 - Khánh AT17 : 1,5/5
 - d47 AT16 : 0/5 
+- Chiến AT16: 1,5/5
